@@ -12,7 +12,7 @@
 [ext_resource path="res://printer_anim/a01-8.png" type="Texture" id=10]
 [ext_resource path="res://printer_anim/a01-1.png" type="Texture" id=11]
 
-[sub_resource type="SpriteFrames" id=4]
+[sub_resource type="SpriteFrames" id=1]
 animations = [ {
 "frames": [ ExtResource( 7 ), ExtResource( 11 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 10 ) ],
 "loop": true,
@@ -27,13 +27,13 @@ outline_color = Color( 0.207843, 0.933333, 0.286275, 1 )
 extra_spacing_char = 4
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=1]
+[sub_resource type="DynamicFont" id=3]
 size = 47
 extra_spacing_char = 3
 extra_spacing_space = 6
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=3]
+[sub_resource type="DynamicFont" id=4]
 size = 20
 extra_spacing_char = 2
 font_data = ExtResource( 1 )
@@ -55,8 +55,8 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 518.654, 288.547 )
 scale = Vector2( 0.393131, 0.393131 )
-frames = SubResource( 4 )
-frame = 7
+frames = SubResource( 1 )
+frame = 1
 speed_scale = 5.0
 playing = true
 
@@ -207,7 +207,7 @@ margin_top = 17.3604
 margin_right = 735.063
 margin_bottom = 67.3604
 size_flags_stretch_ratio = 0.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 3 )
 text = "Total Money"
 align = 1
 __meta__ = {
@@ -220,7 +220,7 @@ margin_top = 75.8565
 margin_right = 775.395
 margin_bottom = 125.856
 size_flags_stretch_ratio = 0.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 3 )
 text = "$ --- --- --- --- ---"
 align = 1
 __meta__ = {
@@ -232,7 +232,7 @@ margin_left = 844.0
 margin_top = 12.0
 margin_right = 1014.0
 margin_bottom = 40.0
-custom_fonts/font = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
 text = "04/01/2020"
 align = 1
 __meta__ = {
