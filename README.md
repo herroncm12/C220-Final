@@ -13,3 +13,5 @@ Game Jam Final for IU C220 Game Technology. The theme of the game was the word "
  The gif is also the only non default asset used besides a free font found online.
  The only real expansion would be more detailed and numerous endings and much more time committed to 
  UI and art assets.
+
+![Screenshot](screenshot.png)
