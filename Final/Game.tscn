@@ -1,0 +1,269 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://LemonMilk.otf" type="DynamicFontData" id=1]
+[ext_resource path="res://Game.gd" type="Script" id=2]
+[ext_resource path="res://printer_anim/a01-4.png" type="Texture" id=3]
+[ext_resource path="res://printer_anim/a01-6.png" type="Texture" id=4]
+[ext_resource path="res://printer_anim/a01-7.png" type="Texture" id=5]
+[ext_resource path="res://printer_anim/a01-2.png" type="Texture" id=6]
+[ext_resource path="res://printer_anim/a01-0.png" type="Texture" id=7]
+[ext_resource path="res://printer_anim/a01-3.png" type="Texture" id=8]
+[ext_resource path="res://printer_anim/a01-5.png" type="Texture" id=9]
+[ext_resource path="res://printer_anim/a01-8.png" type="Texture" id=10]
+[ext_resource path="res://printer_anim/a01-1.png" type="Texture" id=11]
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 7 ), ExtResource( 11 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFont" id=2]
+size = 39
+outline_size = 2
+outline_color = Color( 0.207843, 0.933333, 0.286275, 1 )
+extra_spacing_char = 4
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=1]
+size = 47
+extra_spacing_char = 3
+extra_spacing_space = 6
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
+extra_spacing_char = 2
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=5]
+font_data = ExtResource( 1 )
+
+[node name="Game" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Background" type="ColorRect" parent="."]
+margin_right = 1021.0
+margin_bottom = 603.0
+color = Color( 0.882353, 0.721569, 0.490196, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 518.654, 288.547 )
+scale = Vector2( 0.393131, 0.393131 )
+frames = SubResource( 4 )
+frame = 7
+speed_scale = 5.0
+playing = true
+
+[node name="Big_Business_1" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+margin_left = 20.0
+margin_top = 40.0
+margin_right = 180.0
+margin_bottom = 100.0
+text = "Big Business 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Big_Business_2" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+margin_left = 21.108
+margin_top = 110.0
+margin_right = 181.108
+margin_bottom = 170.0
+text = "Big Business 2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Big_Business_3" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+margin_left = 21.108
+margin_top = 180.0
+margin_right = 181.108
+margin_bottom = 240.0
+text = "Big Business 3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Big_Business_4" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+margin_left = 21.108
+margin_top = 250.0
+margin_right = 181.108
+margin_bottom = 310.0
+text = "Big Business 5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Big_Business_5" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+margin_left = 21.108
+margin_top = 320.0
+margin_right = 181.108
+margin_bottom = 380.0
+text = "Big Business 5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Small_Business_1" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+margin_left = 59.8786
+margin_top = 521.607
+margin_right = 219.879
+margin_bottom = 581.607
+text = "Small Business 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Small_Business_2" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+margin_left = 249.879
+margin_top = 521.607
+margin_right = 409.879
+margin_bottom = 581.607
+text = "Small Business 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Small_Business_3" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+margin_left = 439.879
+margin_top = 521.607
+margin_right = 599.879
+margin_bottom = 581.607
+text = "Small Business 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Small_Business_4" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+margin_left = 629.879
+margin_top = 521.607
+margin_right = 789.879
+margin_bottom = 581.607
+text = "Small Business 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Small_Business_5" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+margin_left = 819.879
+margin_top = 521.607
+margin_right = 979.879
+margin_bottom = 581.607
+text = "Small Business 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Print_Money" type="Button" parent="."]
+anchor_right = 1.0
+margin_left = 674.369
+margin_top = 170.97
+margin_right = 1007.37
+margin_bottom = 318.97
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Print_Money"]
+margin_right = 336.0
+margin_bottom = 149.0
+custom_fonts/font = SubResource( 2 )
+text = "Print Money!"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Money_Label" type="Label" parent="."]
+margin_left = 360.063
+margin_top = 17.3604
+margin_right = 735.063
+margin_bottom = 67.3604
+size_flags_stretch_ratio = 0.0
+custom_fonts/font = SubResource( 1 )
+text = "Total Money"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Actual_Money" type="Label" parent="."]
+margin_left = 259.395
+margin_top = 75.8565
+margin_right = 775.395
+margin_bottom = 125.856
+size_flags_stretch_ratio = 0.0
+custom_fonts/font = SubResource( 1 )
+text = "$ --- --- --- --- ---"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Date" type="Label" parent="."]
+margin_left = 844.0
+margin_top = 12.0
+margin_right = 1014.0
+margin_bottom = 40.0
+custom_fonts/font = SubResource( 3 )
+text = "04/01/2020"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EndScreen" type="ColorRect" parent="."]
+margin_left = 389.0
+margin_top = 71.0
+margin_right = 649.0
+margin_bottom = 498.0
+color = Color( 0.2, 0.176471, 0.176471, 0.811765 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EndLabel" type="Label" parent="EndScreen"]
+margin_left = 7.0
+margin_top = 11.0
+margin_right = 252.0
+margin_bottom = 415.0
+custom_fonts/font = SubResource( 5 )
+autowrap = true
+[connection signal="pressed" from="Big_Business_1" to="." method="_on_Big_Business_1_pressed"]
+[connection signal="pressed" from="Big_Business_2" to="." method="_on_Big_Business_2_pressed"]
+[connection signal="pressed" from="Big_Business_3" to="." method="_on_Big_Business_3_pressed"]
+[connection signal="pressed" from="Big_Business_4" to="." method="_on_Big_Business_4_pressed"]
+[connection signal="pressed" from="Big_Business_5" to="." method="_on_Big_Business_5_pressed"]
+[connection signal="pressed" from="Small_Business_1" to="." method="_on_Small_Business_1_pressed"]
+[connection signal="pressed" from="Small_Business_2" to="." method="_on_Small_Business_2_pressed"]
+[connection signal="pressed" from="Small_Business_3" to="." method="_on_Small_Business_3_pressed"]
+[connection signal="pressed" from="Small_Business_4" to="." method="_on_Small_Business_4_pressed"]
+[connection signal="pressed" from="Small_Business_5" to="." method="_on_Small_Business_5_pressed"]
+[connection signal="pressed" from="Print_Money" to="." method="_on_Print_Money_pressed"]
