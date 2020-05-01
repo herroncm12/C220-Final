@@ -47,4 +47,4 @@ I like how you utilized Godot's group function on the buttons.
 
 How many of your points would you allocate to this project?
 
-4
+3
