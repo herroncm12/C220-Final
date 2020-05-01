@@ -1,0 +1,51 @@
+Name:Shannon Master
+Date:5/1/2020
+
+Project: The Fed
+Group's repository: https://github.com/kittenatheart/C220-Final
+
+
+
+What is something you learned by reviewing this group's project?
+Our economy is probably going to suffer a lot from this pandemic
+ 
+
+In what ways does this game reflect the theme?
+It simulates the stimulus checks that the government is introducing to help the economy in these trying times
+brough on by COVID-19.
+ 
+
+What is something you saw in this group's project that you would like to apply to your own future games?
+I love that it feels like a meme. These kinds of games are very fun because of the imagery and almost the audacity 
+of the idea behind the game. The idea that you must play as the government and try to save the economy even 
+though you'll most likely fail is a very nihilistic veiw and I relate.
+ 
+
+What suggestions would you have for this group to improve the game?
+A little more instruction on how to play would be helpful, and the business buttons come and go so quickly
+ 
+
+Was there anything in the GDScript that was confusing to you? If so, what?
+The script actually helped me understand better how to play the game and how to get a "good" ending.
+ 
+
+Is it clear that every group member participated?
+Since this was a one-person group, it is clear that he worked hard on this.
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes
+ 
+
+What is something the group could add to the README.md to make it more descriptive?
+Where the gif came from
+ 
+
+Pay a compliment to the group based on the quality of the game.
+It's awesome that you decided to take on a project where you had to code it all, using none of the code from 
+previous projects.
+
+
+How many of your points would you allocate to this project?
+1.5
+
