@@ -1,47 +1,50 @@
-Name: Katelyn Clemow
-Date: 4/29/2020
+Name: Benjamin Dance
+Date: 5/1/2020
 
-Project: Mr. Solo Dolo - The Fed
-Group's repository: https://github.com/banane42/C220-Final
+Project: The Fed
+Group's repository: 
 
-
+https://github.com/banane42/C220-Final
 
 What is something you learned by reviewing this group's project?
-Least importantly, I learned that I need to learn more about economics. It also expanded my view of what kinds of games are able to be made in Godot besides what we have done in class. 
- 
+
+I learned that you can create story based games in Godot with ease.
 
 In what ways does this game reflect the theme?
-This student took a very creative look at the theme and used a circumstance that Corona has created in the world as opposed to purely Corona. 
- 
+
+The game reflects this theme based on you playing as the federal reserve distributing checks.
 
 What is something you saw in this group's project that you would like to apply to your own future games?
-I liked that the end of the game didn't just say "You lose" but instead explained the situation at hand and gave the player a clue as to what they did wrong in order to imporve next time.
- 
+
+I liked the animation that they had playing in their game. In the future, I'd like to incorporate more animation in my games.
 
 What suggestions would you have for this group to improve the game?
-I think it would have been nice to have a play again or quit button at the end of the game as well as sound but those are details considering you did this by yourself. I understand why the game was so fast paced, but it could have been slightly slower just to accomodate for people who may struggle to read that quickly. 
- 
+
+Although the README is helpful, I'd suggest having an instruction screen flash before the game starts. When I first played the game I had
+no idea what I was supposed to do.
 
 Was there anything in the GDScript that was confusing to you? If so, what?
-The script was extensive, but you can tell this person knew what they were doing as it was well organized and straight to the point. There were no errors that occured when playing the game. 
- 
+
+The multiple Big_Business_Pressed functions were a bit confusing to me. It seems like they could have done the game with just one of
+these functions.
 
 Is it clear that every group member participated?
-As this was a solo group, yes it is very clear that this student worked hard on this project to make it what it was.
- 
+
+It seems like this project was only made by one person Griffen Morrison. This is evidenced by the name "Mr Solo Dolo," and the fact that
+his name is the only one on the license and README.
 
 Does the repository contain an appropriate LICENSE?
-Yes
- 
+
+Yes, it lists Griffen Morrison's name.
 
 What is something the group could add to the README.md to make it more descriptive?
-The student could have added what applications were used to create the game and art. 
- 
+
+Although it gives a description of the game itself, there aren't any instructions on how to play the game.
 
 Pay a compliment to the group based on the quality of the game.
-Seeing as how you did this by yourself, I am impressed with the creativity and obvious effort put into making something different than what we have done in class. Great job!
 
+I like how you utilized Godot's group function on the buttons.
 
 How many of your points would you allocate to this project?
-2
 
+4
