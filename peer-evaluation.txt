@@ -1,50 +1,47 @@
-Name: Benjamin Dance
-Date: 5/1/2020
+Name:
+Date:
 
-Project: The Fed
+Project: 
 Group's repository: 
 
-https://github.com/banane42/C220-Final
+
 
 What is something you learned by reviewing this group's project?
 
-I learned that you can create story based games in Godot with ease.
+ 
 
 In what ways does this game reflect the theme?
 
-The game reflects this theme based on you playing as the federal reserve distributing checks.
+ 
 
 What is something you saw in this group's project that you would like to apply to your own future games?
 
-I liked the animation that they had playing in their game. In the future, I'd like to incorporate more animation in my games.
+ 
 
 What suggestions would you have for this group to improve the game?
 
-Although the README is helpful, I'd suggest having an instruction screen flash before the game starts. When I first played the game I had
-no idea what I was supposed to do.
+ 
 
 Was there anything in the GDScript that was confusing to you? If so, what?
 
-The multiple Big_Business_Pressed functions were a bit confusing to me. It seems like they could have done the game with just one of
-these functions.
+ 
 
 Is it clear that every group member participated?
 
-It seems like this project was only made by one person Griffen Morrison. This is evidenced by the name "Mr Solo Dolo," and the fact that
-his name is the only one on the license and README.
+ 
 
 Does the repository contain an appropriate LICENSE?
 
-Yes, it lists Griffen Morrison's name.
+ 
 
 What is something the group could add to the README.md to make it more descriptive?
 
-Although it gives a description of the game itself, there aren't any instructions on how to play the game.
+ 
 
 Pay a compliment to the group based on the quality of the game.
 
-I like how you utilized Godot's group function on the buttons.
+
 
 How many of your points would you allocate to this project?
 
-3
+
